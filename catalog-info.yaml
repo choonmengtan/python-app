@@ -5,7 +5,7 @@ metadata:
   description: Python app that displays time.
   annotations:
     github.com/project-slug: choonmengtan/python-app
-    backstage.io/techdocs-ref: dir:. # default folder in current dir to look for is "docs". MkDocs looks for a config file named mkdocs.yml or mkdocs.yaml in root directory
+    backstage.io/techdocs-ref: dir:. # default folder in current directory of catalog-info.yaml to look for is "docs". MkDocs looks for a config file named mkdocs.yml or mkdocs.yaml in  currentdirectory of catalog-info.yaml
 spec:
   type: service
   owner: development
